@@ -1,0 +1,58 @@
+* {
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  background-color: rgb(168, 58, 168);
+  font-family: sans-serif;
+  width: 100%;
+  padding: 30px 15px;
+  color: white;
+}
+nav h1 {
+  font-size: 2rem;
+}
+
+section {
+  display: flex;
+}
+section .the {
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+  width: 25%;
+  color: white;
+  gap: 1rem;
+}
+section .the a {
+  background-color: rgb(82, 185, 226);
+  padding: 25px 20px;
+}
+section .the a:hover {
+  background-color: blue;
+  transition: 0.9s ease-out;
+}
+section .the2 {
+  width: 50%;
+  margin: 20px 20px 20px 0px;
+  color: black;
+}
+section .the2 span {
+  width: 90%;
+}
+section .the3 {
+  background-color: rgb(82, 185, 226);
+  margin-top: 20px;
+  color: white;
+}
+section .the3 div {
+  margin: 0px 20px;
+}
+
+footer {
+  background-color: rgb(82, 185, 226);
+  padding: 40px;
+  text-align: center;
+  margin-top: 30px;
+}/*# sourceMappingURL=style.css.map */
